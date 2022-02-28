@@ -1,0 +1,28 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+
+    input {
+        width: 400px;
+        height: 45px;
+        border: none;
+        background-color: transparent;
+        margin-top: 20px;
+        border-bottom: 1px solid black;
+        cursor: pointer;
+
+        &[type='submit']{
+            background-color: orange;
+            border-radius: 20px;
+            border: none;
+            transition: all 1s;
+
+            &:hover {
+                border-bottom: 1px solid black;
+            }
+        }
+    }
+}

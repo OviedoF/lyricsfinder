@@ -1,0 +1,31 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+#msgError_lyrics{
+    position: absolute;
+    top: 40px;
+    left: 50%;
+}
+
+#msgError_artist{
+    position: absolute;
+    top: 400px;
+    left: 40px;
+}
+
+.audun_warn {
+    color: lightgoldenrodyellow;
+    background-color: #d11b1bab;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    border-radius:.5em;
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:12px;
+   width: 400px;
+   height: 130px;
+   text-align: center;
+
+   em {
+       font-weight: bold;
+   }
+}

@@ -1,0 +1,41 @@
+#lyrics-container {
+    margin-top: 40px;
+    h3 {
+        font-size: 24px;
+        position: fixed;
+        width: 40%;
+        top: -10px;
+        height: 40px;
+        background-color: lightgoldenrodyellow;
+    } 
+    width: 40%;
+    text-align: center;
+    height: 90%;
+    position: absolute;
+    right: 17%;    
+    overflow: scroll;
+    word-break: break-all;
+
+    blockquote {
+        white-space:pre-wrap;
+        margin-top: 40px;
+        font-size: 20px;
+        line-height: 20px;
+        
+    }
+
+    &::-webkit-scrollbar {
+        background-color: transparent;
+        width: 4px;
+
+        &:horizontal {
+            display: none;
+        }
+    }
+
+    &::-webkit-scrollbar-thumb{
+        background-color: orange;
+        border-radius: 20px;
+    }
+}
+
