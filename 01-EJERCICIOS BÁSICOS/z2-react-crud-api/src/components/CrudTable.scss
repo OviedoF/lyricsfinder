@@ -1,0 +1,24 @@
+table{
+    color: lightgoldenrodyellow;
+    width: 500px;
+}
+
+#data-container > table > thead > tr > th:nth-child(1),
+#data-container > table > thead > tr > th:nth-child(2)  {
+    text-align: start;
+}
+
+#data-container > table > thead > tr > th:nth-child(3) {
+    text-align: left;
+    padding: 24px;
+}
+
+td button {
+    border: none;
+    margin-left: 20px;
+    background-color: transparent;
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+    cursor: pointer;
+    height: 50px;
+}

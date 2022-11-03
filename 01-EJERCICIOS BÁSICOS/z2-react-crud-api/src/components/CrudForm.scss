@@ -1,0 +1,38 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 100px;
+}
+
+#inputs-div {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background: none;
+    border: none;
+    width: 200px;
+    color: lightgoldenrodyellow;
+    height: 50px;
+    text-align: center;
+}
+
+input[type=text]{
+    width: 300px;
+}
+
+#inputs-div > div.name-input > input[type=text]:nth-child(1){
+    margin-left: 50px;
+}
+
+input[type=submit], input[type=reset]{
+    border: 1px solid lightgoldenrodyellow;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+h3, label {
+    color: lightgoldenrodyellow;
+}
